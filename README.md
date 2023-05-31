@@ -25,4 +25,4 @@ Things you may want to cover:
 
 
 * here is key for pushing to the remote server since you can't use your password
-* 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
+* 
