@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :articles
  
   # 1) when defining the route RAILS knows your sending this to a controller SO 'application_controller' is not necessary
   #     you can just say 'application' and it knows it is a controller.
