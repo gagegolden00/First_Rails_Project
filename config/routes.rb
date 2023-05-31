@@ -6,6 +6,10 @@ Rails.application.routes.draw do
   # 3) The action 'hello' could not be found for ApplicationController == the error message
   #     displayed when the action is not defined
   # route 'controller#action'
+
+  # root route / home
   root 'pages#home'
-  
+
+  # about page
+  get '/about', to: 'pages#about'
 end
